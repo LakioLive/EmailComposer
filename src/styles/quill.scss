@@ -1,0 +1,24 @@
+.ql-container,
+.ql-editor,
+.ql-editor p {
+    min-height: 6lh;
+    word-break: break-all;
+}
+
+.ql-editor {
+    padding: 10px 5px;
+}
+
+.ql-editor.ql-blank::before {
+    left: 5px;
+}
+
+.ql-toolbar.ql-snow {
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.ql-container.ql-snow {
+    border: 0;
+}
